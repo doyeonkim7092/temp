@@ -1,6 +1,7 @@
 const nodemailer = require("nodemailer");
 const dotenv = require("dotenv").config();
 const myPw = process.env.PASSWORD;
+const cron = require("node-cron");
 
 // email message options
 
@@ -22,10 +23,12 @@ const transporter = nodemailer.createTransport({
 });
 
 // send Email
-transporter.sendMail(mailOptions, (error, info) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log(`E-mail SENDED ~ ${info.response}`);
-  }
+cron.schedule(" * * * * * * ", () => {
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log(`E-mail SENDED ~ ${info.response}`);
+    }
+  });
 });
