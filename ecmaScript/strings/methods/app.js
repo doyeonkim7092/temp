@@ -12,7 +12,8 @@
 
 // console.log(displayName)
 
-const name = "Mr.KIM"
 
-console.log(name.startsWith("Mr"))
-console.log(name.endsWith("KIM"))
+// const name = "Mr.KIM"
+
+// console.log(name.startsWith("Mr"))
+// console.log(name.endsWith("KIM"))
