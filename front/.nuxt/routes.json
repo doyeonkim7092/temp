@@ -1,0 +1,23 @@
+[
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/doyeon/Desktop/temp/front/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_67848981"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "/Users/doyeon/Desktop/temp/front/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "_name": "_aaa15420"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/doyeon/Desktop/temp/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_115a47ac"
+  }
+]
