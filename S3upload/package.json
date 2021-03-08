@@ -1,0 +1,19 @@
+{
+  "name": "s3upload",
+  "version": "1.0.0",
+  "main": "index.vue",
+  "scripts": {
+    "ui": "vue serve Index.vue",
+    "server": "node ./server/public/app.js"
+  },
+  "dependencies": {
+    "@vue/cli-service-global": "^4.5.11",
+    "base64-img": "^1.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
